@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Display</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="ProudctDisplay.css">
+    <link rel="stylesheet" href="../static_and_BannerHome/style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+        <div class="container">
+                <img src="https://icons.veryicon.com/png/o/miscellaneous/light-e-treasure-3/training-course.png" alt="Logo" style="width: 40px; height: 40px;">
+                <span class="logoText">E_COM</span>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <div class="navbar-nav mx-auto">
+                    <a class="nav-item nav-link" href="../static_and_BannerHome/Index.html">HOME</a>
+                    <a class="nav-item nav-link" href="../ProudctDisplay/ProudctDisplay.html">PRODUCT</a>
+                </div>
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarAccountDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            ACCOUNT
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarAccountDropdown">
+                            <li><a class="dropdown-item" href="../reg/reg.html">REGISTER</a></li>
+                            <li><a class="dropdown-item" href="../Login/Login.html">LOGIN</a></li>
+                            <li><a class="dropdown-item" href="../myProudct/MyProudct.html">My PRODUCT</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="hero">
+        <div class="filter-container">
+            <input
+                type="number"
+                placeholder="Write a Page Number"
+                class="search-page-number"
+            />
+            <input
+                type="text"
+                placeholder="Search products..."
+                class="search-input"
+            />
+            <select>
+                <option value="">Default Sort</option>
+                <option value="price">Price: Low to High</option>
+                <option value="-price">Price: High to Low</option>
+                <option value="name">Name: A to Z</option>
+                <option value="-name">Name: Z to A</option>
+            </select>
+        </div>
+        <div class="category-products">
+            <div class="products-container">
+                <div class="card">
+                    <a href="../Proudctnfo/Proudctnfo.html?id=1">
+                        <img
+                            src="https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/7579188/2018/11/5/08a7b230-ee8f-46c0-a945-4e835a3c01c01541402833619-United-Colors-of-Benetton-Men-Sweatshirts-1271541402833444-1.jpg"
+                            alt="Sample Product"
+                            class="card-img-top"
+                        />
+                    </a>
+                    <div class="card-body">
+                        <p class="card-title">Men's Sweatshirt</p>
+                        <p class="priceTitle">90.00$</p>
+                        <p class="feedback-rating">★★★★☆</p>
+                    </div>
+                    <button class="Cancel-button">Add to Cart</button>
+                </div>
+        
+                
+                <div class="card">
+                    <a href="../Proudctnfo/Proudctnfo.html?id=2">
+                        <img src="https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/2060340/2017/9/14/11505387708574-Puma-Men-Black-Solid-Sporty-Jacket-371505387708496-1.jpg" alt="Black Solid Sporty Jacket" class="card-img-top">
+                    </a>
+                    <div class="card-body">
+                        <p class="card-title">Black Solid Sporty Jacket</p>
+                        <p class="priceTitle">$49.99</p>
+                        <p class="feedback-rating">★★★★★</p>
+                    </div>
+                    <button class="Cancel-button">Add to Cart</button>
+                </div>
+        
+                <div class="card">
+                    <a href="../Proudctnfo/Proudctnfo.html?id=3">
+                        <img src="https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/productimage/2018/9/19/b1373b00-37d4-41a0-a908-5d742a68d3661537343756229-1.jpg" alt="Designer Shirt" class="card-img-top">
+                    </a>
+                    <div class="card-body">
+                        <p class="card-title">Designer Shirt</p>
+                        <p class="priceTitle">$29.99</p>
+                        <p class="feedback-rating">★★★★☆</p>
+                    </div>
+                    <button class="Cancel-button">Add to Cart</button>
+                </div>
+        
+                <div class="card">
+                    <a href="../Proudctnfo/Proudctnfo.html?id=4">
+                        <img src="https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/3854721/2018/3/12/11520844673915-BARESKIN-Women-Black-Solid-Lightweight-Leather-Jacket-7761520844673718-1.jpg" alt="Women's Leather Jacket" class="card-img-top">
+                    </a>
+                    <div class="card-body">
+                        <p class="card-title">Women's Leather Jacket</p>
+                        <p class="priceTitle">$59.99</p>
+                        <p class="feedback-rating">★★★☆☆</p>
+                    </div>
+                    <button class="Cancel-button">Add to Cart</button>
+                </div>
+                <div class="card">
+                    <a href="../Proudctnfo/Proudctnfo.html?id=5">
+                        <img src="https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/9803247/2019/5/27/624dac60-4c42-4902-bba1-30a51cc7f43c1558948536543-Apple-Unisex-Smart-Watches-1441558948536225-1.jpg" alt="Unisex Silver-Toned Series 3 Smart Watch" class="card-img-top">
+                    </a>
+                    <div class="card-body">
+                        <p class="card-title">Unisex Silver-Toned Series 3 Smart Watch</p>
+                        <p class="priceTitle">$349.99</p>
+                        <p class="feedback-rating">★★★★★</p>
+                    </div>
+                    <button class="Cancel-button">Add to Cart</button>
+                </div>
+        
+                <div class="card">
+                    <a href="../Proudctnfo/Proudctnfo.html?id=6">
+                        <img src="https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/productimage/2019/2/23/dc05b5e5-aa82-493e-bf0b-0c309baf21021550920383101-1.jpg" alt="Unisex Black & Green Reflex 2.0 Smart Band" class="card-img-top">
+                    </a>
+                    <div class="card-body">
+                        <p class="card-title">Unisex Black & Green Reflex 2.0 Smart Band</p>
+                        <p class="priceTitle">$59.99</p>
+                        <p class="feedback-rating">★★★★☆</p>
+                    </div>
+                    <button class="Cancel-button">Add to Cart</button>
+                </div>
+        
+                <div class="card">
+                    <a href="../Proudctnfo/Proudctnfo.html?id=7">
+                        <img src="https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/10122083/2019/6/24/e533a691-3908-41b0-8307-1928a37d4ec41561362162650-Samsung-Galaxy-Fit-4801561362161527-1.jpg" alt="Unisex Black Galaxy Fit Fitness Band" class="card-img-top">
+                    </a>
+                    <div class="card-body">
+                        <p class="card-title">Unisex Black Galaxy Fit Fitness Band</p>
+                        <p class="priceTitle">$129.99</p>
+                        <p class="feedback-rating">★★★★☆</p>
+                    </div>
+                    <button class="Cancel-button">Add to Cart</button>
+                </div>
+        
+                <div class="card">
+                    <a href="../Proudctnfo/Proudctnfo.html?id=8">
+                        <img src="https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/9803279/2019/5/27/6661d579-12ae-456b-b8f2-e78e5256a99c1558948436173-Apple-AirPods-with-Charging-Case-2nd-Gen-White-3831558948435-1.jpg" alt="White 2nd Gen AirPods With Charging Case" class="card-img-top">
+                    </a>
+                    <div class="card-body">
+                        <p class="card-title">White 2nd Gen AirPods With Charging Case</p>
+                        <p class="priceTitle">$199.99</p>
+                        <p class="feedback-rating">★★★★★</p>
+                    </div>
+                    <button class="Cancel-button">Add to Cart</button>
+                </div>
+        
+                <div class="card">
+                    <a href="../Proudctnfo/Proudctnfo.html?id=9">
+                        <img src="https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/8593217/2019/4/9/de2c21f3-6731-4c29-9369-692a486a1b8c1554802772926-Samsung-Gear-IconX-Black-Cord-free-Fitness-Earbuds-256155480-1.jpg" alt="Gear IconX Black Cord-Free Fitness Earbuds" class="card-img-top">
+                    </a>
+                    <div class="card-body">
+                        <p class="card-title">Gear IconX Black Cord-Free Fitness Earbuds</p>
+                        <p class="priceTitle">$149.99</p>
+                        <p class="feedback-rating">★★★★☆</p>
+                    </div>
+                    <button class="Cancel-button">Add to Cart</button>
+                </div>
+        
+                <div class="card">
+                    <a href="../Proudctnfo/Proudctnfo.html?id=10">
+                        <img src="https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/productimage/2019/2/23/dc05b5e5-aa82-493e-bf0b-0c309baf21021550920383101-1.jpg" alt="Unisex Black & Green Reflex 2.0 Smart Band" class="card-img-top">
+                    </a>
+                    <div class="card-body">
+                        <p class="card-title">Unisex Black & Green Reflex 2.0 Smart Band</p>
+                        <p class="priceTitle">$59.99</p>
+                        <p class="feedback-rating">★★★★☆</p>
+                    </div>
+                    <button class="Cancel-button">Add to Cart</button>
+                </div>
+              
+            </div>
+        </div>
+    </div>
+    
+
+            
+     
+
+</body>
+</html>
